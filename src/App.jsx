@@ -31,10 +31,10 @@ function App() {
       </form>
       {
         isLoading ?
-          <h2>is Loaging...</h2>
+          <h2 className='app__loading'>is Loaging...</h2>
           : (
             hasError||locationId==='0'
-              ? <h2>❌Hey! you must provide an id from 1 to 126</h2>
+              ? <h2 className='app__error'>❌Hey! you must provide an id from 1 to 126</h2>
               : (
                 <>
                   <InfoLocation

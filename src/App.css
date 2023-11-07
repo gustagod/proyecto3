@@ -1,5 +1,6 @@
 .app{
     background-color: #052428;
+
 }
 
 .app__form{
@@ -32,4 +33,20 @@
     flex-wrap: wrap;
     gap: 2em;
     justify-content: center;
+}
+
+.app__error{
+    color: white;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    height: 60vh;
+}
+
+.app__loading{
+    color: white;
+    display: flex;
+    align-items: top;
+    justify-content: center;  
+    height: 60vh;
 }
